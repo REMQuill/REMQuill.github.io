@@ -21,12 +21,6 @@ for (const artwork of site.artwork) {
   image.decoding = "async";
   figure.append(image);
 
-  if (artwork.title) {
-    const caption = document.createElement("figcaption");
-    caption.textContent = artwork.title;
-    figure.append(caption);
-  }
-
   gallery.append(figure);
 }
 
