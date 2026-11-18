@@ -13,6 +13,10 @@ for (const artwork of site.artwork) {
   const image = document.createElement("img");
   image.src = artwork.src;
   image.alt = artwork.alt;
+  if (artwork.width && artwork.height) {
+    image.width = artwork.width;
+    image.height = artwork.height;
+  }
   image.loading = "lazy";
   image.decoding = "async";
   figure.append(image);

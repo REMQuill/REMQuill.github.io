@@ -15,7 +15,7 @@ A lightweight portfolio site hosted with GitHub Pages.
    }
    ```
 
-Use descriptive alt text and reasonably sized JPEG, PNG, or WebP images. The gallery is currently empty because no image files have been added to the repository yet.
+Use descriptive alt text and reasonably sized JPEG, PNG, or WebP images. The current collection is stored as optimized WebP files in `assets/images/`.
 
 ## Enable Ko-fi donations
 
